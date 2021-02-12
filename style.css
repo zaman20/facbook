@@ -1,0 +1,201 @@
+*{
+    margin:0;
+    padding:0;
+}
+body,h2,h3,h4,p{
+ font-family: Arial, Helvetica, sans-serif;
+}
+.section1{
+    background:#3F5D9A;
+    height: 50px;
+    padding:20px 50px;
+  
+}
+.secton1.logo{
+    width:40%;
+    float: left;
+  
+}
+.logo h1{
+    color:white;
+    font-size: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:250px;
+}
+.loginButton{
+    width:30%;
+    float:right;
+    margin-top:-30px;
+}
+.loginButton a{
+    color:white;
+    text-decoration: none;
+    border:1px solid rgb(42, 59, 73);
+    padding:3px 5px;
+    background:#4f78cc;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  
+    
+    
+}
+.loginButton a:hover{
+    background:#365999ec;
+}
+
+/* second section */
+.section2{
+
+    background:#EBEDF0;
+    width:100%;
+    height:auto;
+    padding:20px 0px;
+}
+.content{
+    width:450px;
+    margin:0 auto;
+  
+}
+.content h2{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content h5{
+    font-size: 18px;
+    font-family:Arial;
+    color:gray;
+    font-weight:100;
+    margin-bottom:20px;
+
+}
+.firstName{
+    width:45%;
+    float:left;
+}
+.lastName{
+    width:45%;
+    float: right;
+}
+.box{
+    width:96%;
+    margin-top:5px;
+}
+.all_Date{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+input{
+    
+        padding: 12px 7px;
+        font-size: 20px;
+        font-family: arial;
+        border-radius: 7px;
+        border: 1px solid #bdb9b9;
+    
+}
+.space{
+    margin-bottom:25px;
+}
+
+label{
+font-family: arial;
+color: #9d9d9d;
+font-weight: bold;
+
+}
+select{
+    font-family:arial;
+    height:30px;
+    margin-top:10px;
+}
+.left{
+    margin-left: 2px;
+    
+}
+p{
+    margin-top: 14px;
+    font-size: 12px;
+
+}
+.radio{
+    font-size: 18px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.genderName{
+    color: black;
+font-weight: normal;
+font-size: 25px;
+    
+}
+
+.button{
+    width: 200px;
+    background: linear-gradient(#74c95a,#5A8D46);
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    padding: 7px 25px;
+    border: 1px solid #616161;
+border-radius: 5px;
+   
+}
+.button:hover{
+    background: linear-gradient(#7ed365,#5A8D46);
+    cursor: pointer;
+    
+}
+.footer{
+    padding: 95px 25px;
+}
+.firstMenu{
+    margin:0 auto;
+    width:60%;
+    border-bottom: 2px solid rgb(182, 180, 180);
+}
+.firstMenu ul{
+
+}
+.firstMenu ul li{
+display:inline-block;
+padding:10px 0;
+}
+.firstMenu ul li a{
+
+    text-decoration: none;
+    padding:10px 15px;
+}
+.active{
+    color:gray;
+}
+.secondMenu{
+ width:60%;
+ margin:0 auto;
+ padding:13px 0px;
+}
+.secondMenu ul{}
+.secondMenu ul li{
+    display: inline-block;
+    padding:10px 0px;
+}
+.secondMenu ul a{
+    text-decoration: none;
+    padding:1px 7px;
+    font-size: 13px;
+    color:#3B5998;
+}
+.secondMenu a:hover{
+    border-bottom:1px solid gray;
+}
+.copyright{
+    width: 60%;
+    margin:0 auto;
+
+
+}
+.copyright p{
+    color:gray;
+    margin-top:0px;
+}
